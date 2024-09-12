@@ -1,0 +1,12 @@
+# Git aliases
+alias gs='git status'
+alias gl='git log --oneline --graph'
+alias gb='git branch'
+alias gg='git grep -n'
+alias gd='git diff'
+alias gc='git commit'
+alias ga='git add --patch'
+alias gdc='git diff --cached'
+alias gco='git checkout'
+alias gcm='git checkout master'
+alias gp='git pull'
