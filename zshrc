@@ -52,11 +52,6 @@ HISTFILE=~/.history
 
 EDITOR=nvim
 
-# Helpers
-source "$HOME/.zsh/aliases.zsh"
-# Git Aliases
-source "$HOME/.zsh/git.zsh"
-
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
 
@@ -135,6 +130,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Helpers
+source "$HOME/.zsh/aliases.zsh"
+# Git Aliases
+source "$HOME/.zsh/git.zsh"
 
 # Add Visual Studio Code (code_
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
